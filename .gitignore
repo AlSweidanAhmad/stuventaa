@@ -1,0 +1,16 @@
+# IDE Settings (Eclipse/VS Code)
+.settings/
+.project
+.classpath
+.vscode/
+
+# Build Output
+bin/
+out/
+target/
+
+# System Files
+.bash_history
+.gitconfig
+.DS_Store
+Thumbs.db
