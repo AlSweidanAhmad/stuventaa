@@ -15,3 +15,9 @@ target/
 .DS_Store
 Thumbs.db
 node_modules
+
+# dist and node_modules are common directories that contain build artifacts and dependencies, which should not be committed to version control. The .env file often contains sensitive information such as API keys and should also be ignored.
+node_modules/
+dist/
+.env
+
