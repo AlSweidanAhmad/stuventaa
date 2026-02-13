@@ -65,5 +65,11 @@
     "programs": "Programme",
     "contact": "Kontakt",
     "privacy": "Datenschutz"
+  },
+    "footer": {
+    "slogan": "GLOBALE VERBINDUNGEN BEGINNEN HIER",
+    "location": "DEUTSCHLAND, LÜBECK",
+    "rights": "ALLE RECHTE VORBEHALTEN.",
+    "privacyLink": "DATENSCHUTZERKLÄRUNG"
   }
 }

@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer
       id="contact"
@@ -22,7 +25,7 @@ const Footer = () => {
         {/* Slogan */}
         <div className="text-center mb-20 md:mb-24">
           <h2 className="text-2xl md:text-4xl font-extralight tracking-[0.2em] text-white uppercase leading-normal">
-            GLOBAL CONNECTIONS START HERE
+            {t('footer.slogan')}
           </h2>
         </div>
 
@@ -51,7 +54,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#FF6600] transition-colors">
                 <MapPin className="w-5 h-5 text-white" />
               </div>
-              <span className="text-lg font-light tracking-wide">GERMANY, LÜBECK</span>
+              <span className="text-lg font-light tracking-wide">{t('footer.location')}</span>
             </div>
           </div>
 
@@ -64,15 +67,14 @@ const Footer = () => {
         {/* Copyright & Privacy Link */}
         <div className="mt-20 pt-8 border-t border-white/10 text-center md:text-left scroll-mt-[90px]">
           <p className="text-white/40 text-xs tracking-wider">
-            © {new Date().getFullYear()} STUVENTAA. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} STUVENTAA. {t('footer.rights')}
           </p>
 
-          {/* This replaces the old id="privacy" anchor with a real route link */}
           <Link
             to="/privacy"
             className="inline-block mt-4 text-white/40 text-xs tracking-wider hover:text-white transition-colors"
           >
-            PRIVACY POLICY
+            {t('footer.privacyLink')}
           </Link>
         </div>
       </div>

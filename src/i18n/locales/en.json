@@ -65,5 +65,12 @@
     "programs": "Programs",
     "contact": "Contact",
     "privacy": "Privacy Policy"
+  },
+    "footer": {
+    "slogan": "GLOBAL CONNECTIONS START HERE",
+    "location": "GERMANY, LÜBECK",
+    "rights": "ALL RIGHTS RESERVED.",
+    "privacyLink": "PRIVACY POLICY"
   }
+
 }
