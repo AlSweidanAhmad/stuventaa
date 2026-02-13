@@ -1,7 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 const Privacy = () => {
   return (
@@ -15,9 +13,7 @@ const Privacy = () => {
       </Helmet>
 
       <div className="min-h-screen bg-white text-gray-800">
-        <Header />
-
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
           {/* Header */}
           <div className="mb-12">
             <p className="text-sm font-semibold tracking-widest text-[#FF6600] uppercase">
@@ -64,8 +60,8 @@ const Privacy = () => {
                 2. Scope of This Privacy Policy
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                This privacy policy applies to the website operated by
-                STUVENTAA and all services offered through this website.
+                This privacy policy applies to the website operated by STUVENTAA
+                and all services offered through this website.
               </p>
             </section>
 
@@ -200,8 +196,6 @@ const Privacy = () => {
             Last updated: {new Date().toLocaleDateString("en-GB")}
           </p>
         </main>
-
-        <Footer />
       </div>
     </>
   );
