@@ -6,4 +6,21 @@
     "buttonContact": "Kontaktieren Sie uns",
     "backgroundAlt": "Berge mit Studierenden beim Auslandsstudium"
   }
+
+,
+
+  "whoWeAre": {
+    "kicker": "WER WIR SIND",
+    "title": "Bei Stuventaa begleiten wir Studierende auf ihrem Bildungsweg",
+    "description": "Wir unterstützen Studierende, die in Deutschland studieren möchten — mit individueller Betreuung rund um Bewerbung, Sprachprogramme und vorbereitende Kurse. Dabei stehen klare Orientierung, transparente Schritte und verlässliche Begleitung im Mittelpunkt.",
+    "subheading": "Über das Akademische hinaus bieten wir:",
+    "features": [
+      "Kulturelle und Bildungsreisen mit klarer Struktur",
+      "Sprachlernen sowie gezielte Praktikums- und Orientierungshilfe",
+      "Unterstützung bei lokalen und internationalen Chancen — passend zu Ihrem Profil"
+    ],
+    "footerText": "Unser Ziel ist es, sinnvolle Erfahrungen zu schaffen, die Bildung, kulturellen Austausch und praktische Einblicke verbinden. So erweitern Studierende ihren Horizont und stärken ihre Grundlage für Studium und Beruf.",
+    "highlight": "Bildung, kulturelle Erfahrung und persönliche Entwicklung — alles an einem Ort.",
+    "imageAlt": "Studierende Person liest ein Buch"
+  }
 }

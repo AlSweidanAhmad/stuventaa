@@ -6,4 +6,21 @@
     "buttonContact": "Contact Us",
     "backgroundAlt": "Mountains with students studying abroad"
   }
+
+,
+
+  "whoWeAre": {
+    "kicker": "WHO WE ARE",
+    "title": "At Stuventaa, we guide students on their educational journey",
+    "description": "We support students who aspire to study in Germany with personalized guidance on applications, language programs, and preparatory courses—offering clear orientation, transparent steps, and reliable support throughout the process.",
+    "subheading": "Beyond academics, we offer:",
+    "features": [
+      "Cultural and educational travel programs with a clear structure",
+      "Language learning and dedicated internship & orientation guidance",
+      "Support for local and international opportunities—tailored to your profile"
+    ],
+    "footerText": "Our goal is to create meaningful experiences that combine education, cultural exchange, and practical exposure. Through our programs, students broaden their perspectives and prepare for their academic and professional future.",
+    "highlight": "Education, cultural experience, and personal growth — all in one place.",
+    "imageAlt": "Student reading a book"
+  }
 }
