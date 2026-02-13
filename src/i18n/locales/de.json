@@ -23,4 +23,25 @@
     "highlight": "Bildung, kulturelle Erfahrung und persönliche Entwicklung — alles an einem Ort.",
     "imageAlt": "Studierende Person liest ein Buch"
   }
+
+,
+
+"services": {
+    "kicker": "WAS WIR ANBIETEN",
+    "title": "Unsere Programme",
+    "items": [
+      {
+        "title": "Studieren & Entdecken",
+        "description": "Erleben Sie akademisches Lernen auf hohem Niveau in Deutschland, vertiefen Sie Ihre Fähigkeiten und gewinnen Sie authentische Einblicke in den Universitätsalltag."
+      },
+      {
+        "title": "Praktikums­möglichkeiten",
+        "description": "Wir begleiten Sie beim Karrierestart – mit praxisnaher Erfahrung, passenden Praktikumsoptionen und professioneller Unterstützung im Bewerbungsprozess."
+      },
+      {
+        "title": "Reise & Abenteuer",
+        "description": "Erweitern Sie Ihren Horizont durch kulturellen Austausch, neue Perspektiven und unvergessliche Erlebnisse – ideal kombiniert mit Lernen und Entwicklung."
+      }
+    ]
+  }
 }

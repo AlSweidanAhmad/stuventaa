@@ -23,4 +23,31 @@
     "highlight": "Education, cultural experience, and personal growth — all in one place.",
     "imageAlt": "Student reading a book"
   }
+
+,
+
+  "services": {
+    "kicker": "WHAT WE OFFER",
+    "title": "Our Programs",
+    "items": [
+      {
+        "title": "Study & Explore",
+        "description": "Experience Germany’s high academic standards, strengthen your skills, and gain real insights into learning within an authentic university environment."
+      },
+      {
+        "title": "Internship Opportunities",
+        "description": "We support your career start with hands-on experience, suitable internship options, and professional guidance throughout the application process."
+      },
+      {
+        "title": "Travel Adventures",
+        "description": "Broaden your horizons through cultural exchange, new perspectives, and unforgettable experiences—bringing learning and discovery together."
+      }
+    ]
+  }
+
+
+
+
+
+  
 }
