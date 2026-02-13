@@ -5,10 +5,7 @@
     "buttonPrograms": "Unsere Programme",
     "buttonContact": "Kontaktieren Sie uns",
     "backgroundAlt": "Berge mit Studierenden beim Auslandsstudium"
-  }
-
-,
-
+  },
   "whoWeAre": {
     "kicker": "WER WIR SIND",
     "title": "Bei Stuventaa begleiten wir Studierende auf ihrem Bildungsweg",
@@ -22,11 +19,8 @@
     "footerText": "Unser Ziel ist es, sinnvolle Erfahrungen zu schaffen, die Bildung, kulturellen Austausch und praktische Einblicke verbinden. So erweitern Studierende ihren Horizont und stärken ihre Grundlage für Studium und Beruf.",
     "highlight": "Bildung, kulturelle Erfahrung und persönliche Entwicklung — alles an einem Ort.",
     "imageAlt": "Studierende Person liest ein Buch"
-  }
-
-,
-
-"services": {
+  },
+  "services": {
     "kicker": "WAS WIR ANBIETEN",
     "title": "Unsere Programme",
     "items": [
@@ -35,7 +29,7 @@
         "description": "Erleben Sie akademisches Lernen auf hohem Niveau in Deutschland, vertiefen Sie Ihre Fähigkeiten und gewinnen Sie authentische Einblicke in den Universitätsalltag."
       },
       {
-        "title": "Praktikums­möglichkeiten",
+        "title": "Praktikumsmöglichkeiten",
         "description": "Wir begleiten Sie beim Karrierestart – mit praxisnaher Erfahrung, passenden Praktikumsoptionen und professioneller Unterstützung im Bewerbungsprozess."
       },
       {
@@ -43,10 +37,7 @@
         "description": "Erweitern Sie Ihren Horizont durch kulturellen Austausch, neue Perspektiven und unvergessliche Erlebnisse – ideal kombiniert mit Lernen und Entwicklung."
       }
     ]
-  }
-
-,
-
+  },
   "gallery": {
     "kicker": "EUROPÄISCHE WAHRZEICHEN",
     "title": "Ein Blick auf Ihr Abenteuer",
@@ -68,6 +59,11 @@
         "location": "Madrid, Spanien"
       }
     ]
+  },
+  "nav": {
+    "about": "Über uns",
+    "programs": "Programme",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz"
   }
-
 }

@@ -5,10 +5,7 @@
     "buttonPrograms": "Our Programs",
     "buttonContact": "Contact Us",
     "backgroundAlt": "Mountains with students studying abroad"
-  }
-
-,
-
+  },
   "whoWeAre": {
     "kicker": "WHO WE ARE",
     "title": "At Stuventaa, we guide students on their educational journey",
@@ -22,10 +19,7 @@
     "footerText": "Our goal is to create meaningful experiences that combine education, cultural exchange, and practical exposure. Through our programs, students broaden their perspectives and prepare for their academic and professional future.",
     "highlight": "Education, cultural experience, and personal growth — all in one place.",
     "imageAlt": "Student reading a book"
-  }
-
-,
-
+  },
   "services": {
     "kicker": "WHAT WE OFFER",
     "title": "Our Programs",
@@ -43,10 +37,7 @@
         "description": "Broaden your horizons through cultural exchange, new perspectives, and unforgettable experiences—bringing learning and discovery together."
       }
     ]
-  }
-
-,
-
+  },
   "gallery": {
     "kicker": "EUROPEAN LANDMARKS",
     "title": "A Glimpse of Your Adventure",
@@ -68,7 +59,11 @@
         "location": "Madrid, Spain"
       }
     ]
+  },
+  "nav": {
+    "about": "About",
+    "programs": "Programs",
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
   }
-
-
 }
