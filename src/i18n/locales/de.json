@@ -44,4 +44,30 @@
       }
     ]
   }
+
+,
+
+  "gallery": {
+    "kicker": "EUROPÄISCHE WAHRZEICHEN",
+    "title": "Ein Blick auf Ihr Abenteuer",
+    "items": [
+      {
+        "name": "Brandenburger Tor",
+        "location": "Berlin, Deutschland"
+      },
+      {
+        "name": "London Eye",
+        "location": "London, Vereinigtes Königreich"
+      },
+      {
+        "name": "Schloss Schönbrunn",
+        "location": "Wien, Österreich"
+      },
+      {
+        "name": "Königspalast von Madrid",
+        "location": "Madrid, Spanien"
+      }
+    ]
+  }
+
 }

@@ -45,9 +45,30 @@
     ]
   }
 
+,
+
+  "gallery": {
+    "kicker": "EUROPEAN LANDMARKS",
+    "title": "A Glimpse of Your Adventure",
+    "items": [
+      {
+        "name": "Brandenburg Gate",
+        "location": "Berlin, Germany"
+      },
+      {
+        "name": "London Eye",
+        "location": "London, UK"
+      },
+      {
+        "name": "Schönbrunn Palace",
+        "location": "Vienna, Austria"
+      },
+      {
+        "name": "Royal Palace of Madrid",
+        "location": "Madrid, Spain"
+      }
+    ]
+  }
 
 
-
-
-  
 }
