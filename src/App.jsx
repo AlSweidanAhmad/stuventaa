@@ -12,24 +12,44 @@ import { Toaster } from '@/components/ui/toaster';
 
 import Privacy from '@/pages/Privacy';
 
+/**
+ * Enterprise: Scroll restoration / route-change scroll handling.
+ * - Always scroll to top on route change
+ * - BUT: keep existing "scrollTo section" behavior via location.state.scrollTo
+ */
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // If navigation requests a section scroll (Home page sections), App will handle it.
+    // We avoid forcing scrollTo(0,0) here in that case to not fight the smooth scroll.
+    const hasSectionScroll = Boolean(location.state?.scrollTo);
+    if (hasSectionScroll) return;
+
+    window.scrollTo(0, 0);
+  }, [location.pathname, location.key]);
+
+  return null;
+}
+
 function App() {
   const location = useLocation();
 
+  // ✅ Keep your existing Home section scroll logic (ID scrolling)
   useEffect(() => {
     const id = location.state?.scrollTo;
     if (!id) return;
 
-    // امسح state حتى ما يعيد اسكرول عند refresh
+    // Clear the state so refresh/back doesn't re-trigger scroll
     window.history.replaceState({}, document.title);
 
-    // انتظر رندر الصفحة الرئيسية
+    // Wait for Home page to render
     setTimeout(() => {
       const el = document.getElementById(id);
       if (!el) return;
 
       const headerOffset = 90;
-      const y =
-        el.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+      const y = el.getBoundingClientRect().top + window.pageYOffset - headerOffset;
 
       window.scrollTo({ top: y, behavior: 'smooth' });
     }, 150);
@@ -45,18 +65,22 @@ function App() {
         />
       </Helmet>
 
+      {/* ✅ Always-on: Scroll management */}
+      <ScrollToTop />
+
       <div className="min-h-screen bg-white font-sans text-gray-800">
+        {/* ✅ Header/Footer outside Routes so they render on EVERY page */}
+        <Header />
+
         <Routes>
           <Route
             path="/"
             element={
               <>
-                <Header />
                 <Hero />
                 <WhoWeAre />
                 <Services />
                 <VisualGallery />
-                <Footer />
               </>
             }
           />
@@ -64,6 +88,7 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
         </Routes>
 
+        <Footer />
         <Toaster />
       </div>
     </>
