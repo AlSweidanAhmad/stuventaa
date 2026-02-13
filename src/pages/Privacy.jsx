@@ -1,15 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 const Privacy = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | STUVENTAA</title>
-        <meta
-          name="description"
-          content="Privacy Policy of STUVENTAA in accordance with the General Data Protection Regulation (GDPR)."
-        />
+        <title>{t("privacy.seo.title")}</title>
+        <meta name="description" content={t("privacy.seo.description")} />
       </Helmet>
 
       <div className="min-h-screen bg-white text-gray-800">
@@ -17,16 +17,13 @@ const Privacy = () => {
           {/* Header */}
           <div className="mb-12">
             <p className="text-sm font-semibold tracking-widest text-[#FF6600] uppercase">
-              Legal
+              {t("privacy.header.kicker")}
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-[#003366] mt-2">
-              Privacy Policy
+              {t("privacy.header.title")}
             </h1>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              We take the protection of your personal data very seriously. This
-              privacy policy explains how we collect, process, and protect your
-              personal data in accordance with the General Data Protection
-              Regulation (GDPR).
+              {t("privacy.header.intro")}
             </p>
           </div>
 
@@ -35,14 +32,14 @@ const Privacy = () => {
             {/* 1 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                1. Responsible Entity
+                {t("privacy.sections.responsible.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 <strong>STUVENTAA</strong>
                 <br />
-                Germany, Lübeck
+                {t("privacy.sections.responsible.location")}
                 <br />
-                Email:{" "}
+                {t("privacy.sections.responsible.emailLabel")}{" "}
                 <a
                   href="mailto:info@stuventaa.de"
                   className="text-[#FF6600] font-semibold hover:underline"
@@ -50,150 +47,131 @@ const Privacy = () => {
                   info@stuventaa.de
                 </a>
                 <br />
-                Phone: +49 176 844826
+                {t("privacy.sections.responsible.phoneLabel")} +49 176 844826
               </p>
             </section>
 
             {/* 2 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                2. Scope of This Privacy Policy
+                {t("privacy.sections.scope.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                This privacy policy applies to the website operated by STUVENTAA
-                and all services offered through this website.
+                {t("privacy.sections.scope.text")}
               </p>
             </section>
 
             {/* 3 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                3. Personal Data Processing
+                {t("privacy.sections.processing.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                We process personal data only when you voluntarily contact us
-                via:
+                {t("privacy.sections.processing.text")}
               </p>
               <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                <li>Email</li>
-                <li>Phone</li>
-                <li>Personal contact (in person)</li>
+                <li>{t("privacy.sections.processing.channels.email")}</li>
+                <li>{t("privacy.sections.processing.channels.phone")}</li>
+                <li>{t("privacy.sections.processing.channels.inPerson")}</li>
               </ul>
               <p className="text-gray-700 leading-relaxed">
-                The processed data may include your email address, phone number,
-                and the content of your inquiry.
+                {t("privacy.sections.processing.note")}
               </p>
             </section>
 
             {/* 4 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                4. Purpose of Processing
+                {t("privacy.sections.purpose.title")}
               </h2>
               <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                <li>Responding to inquiries</li>
-                <li>Providing information about our services</li>
-                <li>Direct communication with interested users</li>
+                <li>{t("privacy.sections.purpose.items.0")}</li>
+                <li>{t("privacy.sections.purpose.items.1")}</li>
+                <li>{t("privacy.sections.purpose.items.2")}</li>
               </ul>
             </section>
 
             {/* 5 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                5. Legal Basis
+                {t("privacy.sections.legalBasis.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Personal data is processed on the following legal bases:
+                {t("privacy.sections.legalBasis.text")}
               </p>
               <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                <li>
-                  Art. 6(1)(b) GDPR – processing necessary for pre-contractual
-                  measures or contractual communication
-                </li>
-                <li>
-                  Art. 6(1)(f) GDPR – legitimate interest in responding to
-                  inquiries and maintaining communication
-                </li>
+                <li>{t("privacy.sections.legalBasis.items.0")}</li>
+                <li>{t("privacy.sections.legalBasis.items.1")}</li>
               </ul>
             </section>
 
             {/* 6 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                6. Data Storage and Deletion
+                {t("privacy.sections.storage.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Personal data is stored only for as long as necessary to process
-                your request or as required by legal retention obligations.
-                After that, the data is deleted.
+                {t("privacy.sections.storage.text")}
               </p>
             </section>
 
             {/* 7 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                7. Data Sharing
+                {t("privacy.sections.sharing.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Your personal data will not be shared with third parties unless
-                required by law.
+                {t("privacy.sections.sharing.text")}
               </p>
             </section>
 
             {/* 8 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                8. Hosting and Server Logs
+                {t("privacy.sections.hosting.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                When accessing this website, technical data (such as IP address,
-                date and time of access, browser type, and operating system) may
-                be processed by the hosting provider for security and technical
-                reasons. This processing is based on Art. 6(1)(f) GDPR.
+                {t("privacy.sections.hosting.text")}
               </p>
             </section>
 
             {/* 9 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                9. Cookies and Tracking
+                {t("privacy.sections.cookies.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                This website does not use cookies for tracking, analytics, or
-                marketing purposes.
+                {t("privacy.sections.cookies.text")}
               </p>
             </section>
 
             {/* 10 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                10. Your Rights
+                {t("privacy.sections.rights.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                You have the right to access, rectify, delete, or restrict the
-                processing of your personal data, as well as the right to data
-                portability and to object to processing (Art. 15–21 GDPR).
+                {t("privacy.sections.rights.text")}
                 <br />
-                To exercise your rights, please contact us via email.
+                {t("privacy.sections.rights.contact")}
               </p>
             </section>
 
             {/* 11 */}
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-900">
-                11. Right to Lodge a Complaint
+                {t("privacy.sections.complaint.title")}
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                You have the right to lodge a complaint with a data protection
-                supervisory authority if you believe that the processing of your
-                personal data violates the GDPR.
+                {t("privacy.sections.complaint.text")}
               </p>
             </section>
           </div>
 
           {/* Footer note */}
           <p className="text-xs text-gray-500 mt-8">
-            Last updated: {new Date().toLocaleDateString("en-GB")}
+            {t("privacy.lastUpdated")}{" "}
+            {new Date().toLocaleDateString(i18n.language)}
           </p>
         </main>
       </div>

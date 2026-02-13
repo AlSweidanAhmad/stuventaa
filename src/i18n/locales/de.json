@@ -71,5 +71,82 @@
     "location": "DEUTSCHLAND, LÜBECK",
     "rights": "ALLE RECHTE VORBEHALTEN.",
     "privacyLink": "DATENSCHUTZERKLÄRUNG"
+  },
+    "privacy": {
+    "seo": {
+      "title": "Datenschutzerklärung | STUVENTAA",
+      "description": "Datenschutzerklärung von STUVENTAA gemäß der Datenschutz-Grundverordnung (DSGVO)."
+    },
+    "header": {
+      "kicker": "Rechtliches",
+      "title": "Datenschutzerklärung",
+      "intro": "Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Diese Datenschutzerklärung erläutert, wie wir personenbezogene Daten erheben, verarbeiten und schützen – im Einklang mit der Datenschutz-Grundverordnung (DSGVO)."
+    },
+    "sections": {
+      "responsible": {
+        "title": "1. Verantwortliche Stelle",
+        "location": "Deutschland, Lübeck",
+        "emailLabel": "E-Mail:",
+        "phoneLabel": "Telefon:"
+      },
+      "scope": {
+        "title": "2. Geltungsbereich dieser Datenschutzerklärung",
+        "text": "Diese Datenschutzerklärung gilt für die von STUVENTAA betriebene Website sowie für alle über diese Website angebotenen Leistungen."
+      },
+      "processing": {
+        "title": "3. Verarbeitung personenbezogener Daten",
+        "text": "Wir verarbeiten personenbezogene Daten ausschließlich, wenn Sie uns freiwillig kontaktieren, z. B. über:",
+        "channels": {
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "inPerson": "Persönlichen Kontakt (vor Ort)"
+        },
+        "note": "Die verarbeiteten Daten können Ihre E-Mail-Adresse, Telefonnummer sowie den Inhalt Ihrer Anfrage umfassen."
+      },
+      "purpose": {
+        "title": "4. Zweck der Verarbeitung",
+        "items": [
+          "Beantwortung von Anfragen",
+          "Bereitstellung von Informationen zu unseren Angeboten",
+          "Direkte Kommunikation mit Interessenten"
+        ]
+      },
+      "legalBasis": {
+        "title": "5. Rechtsgrundlagen",
+        "text": "Die Verarbeitung personenbezogener Daten erfolgt auf folgenden Rechtsgrundlagen:",
+        "items": [
+          "Art. 6 Abs. 1 lit. b DSGVO – Verarbeitung zur Durchführung vorvertraglicher Maßnahmen oder zur Kommunikation im Rahmen eines Vertragsverhältnisses",
+          "Art. 6 Abs. 1 lit. f DSGVO – Berechtigtes Interesse an der Beantwortung von Anfragen und der Pflege der Kommunikation"
+        ]
+      },
+      "storage": {
+        "title": "6. Speicherdauer und Löschung",
+        "text": "Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Anschließend werden die Daten gelöscht."
+      },
+      "sharing": {
+        "title": "7. Weitergabe von Daten",
+        "text": "Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nicht, sofern keine gesetzliche Verpflichtung besteht."
+      },
+      "hosting": {
+        "title": "8. Hosting und Server-Logfiles",
+        "text": "Beim Zugriff auf diese Website können technische Daten (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp und Betriebssystem) durch den Hosting-Anbieter aus Sicherheits- und technischen Gründen verarbeitet werden. Diese Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO."
+      },
+      "cookies": {
+        "title": "9. Cookies und Tracking",
+        "text": "Diese Website verwendet keine Cookies zu Tracking-, Analyse- oder Marketingzwecken."
+      },
+      "rights": {
+        "title": "10. Ihre Rechte",
+        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie das Recht auf Datenübertragbarkeit und das Recht, der Verarbeitung zu widersprechen (Art. 15–21 DSGVO).",
+        "contact": "Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte per E-Mail."
+      },
+      "complaint": {
+        "title": "11. Beschwerderecht bei einer Aufsichtsbehörde",
+        "text": "Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert:"
   }
+
+
 }
