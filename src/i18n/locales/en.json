@@ -8,33 +8,34 @@
   },
   "whoWeAre": {
     "kicker": "WHO WE ARE",
-    "title": "At Stuventaa, we guide students on their educational journey",
-    "description": "We support students who aspire to study in Germany with personalized guidance on applications, language programs, and preparatory courses—offering clear orientation, transparent steps, and reliable support throughout the process.",
+    "title": "At Stuventaa, we support young people on their educational and personal development journey",
+    "description": "We provide guidance, organization, and coordination for international programs, internships, language camps, and educational experiences. Our goal is to connect opportunities with clear structure, reliable support, and meaningful international exposure.",
     "subheading": "Beyond academics, we offer:",
     "features": [
-      "Cultural and educational travel programs with a clear structure",
-      "Language learning and dedicated internship & orientation guidance",
-      "Support for local and international opportunities—tailored to your profile"
+      "International programs with clear structure and personal support",
+      "Internships, language camps, and cultural experiences",
+      "Guidance for orientation, preparation, and next steps",
+      "Collaboration with partners in Germany and internationally"
     ],
-    "footerText": "Our goal is to create meaningful experiences that combine education, cultural exchange, and practical exposure. Through our programs, students broaden their perspectives and prepare for their academic and professional future.",
-    "highlight": "Education, cultural experience, and personal growth — all in one place.",
-    "imageAlt": "Student reading a book"
+    "footerText": "Our mission is to create meaningful experiences that combine education, practical insight, and cultural exchange. In doing so, we help young people broaden their horizons and move forward with greater clarity and perspective.",
+    "highlight": "Education, global experience, and personal growth — all in one place.",
+    "imageAlt": "Students studying together in a university library"
   },
   "services": {
     "kicker": "WHAT WE OFFER",
     "title": "Our Programs",
     "items": [
       {
-        "title": "Study & Explore",
-        "description": "Experience Germany’s high academic standards, strengthen your skills, and gain real insights into learning within an authentic university environment."
+        "title": "Study & Discover",
+        "description": "Experience academic learning in Germany, develop your skills, and gain authentic insights into university life."
       },
       {
-        "title": "Internship Opportunities",
-        "description": "We support your career start with hands-on experience, suitable internship options, and professional guidance throughout the application process."
+        "title": "International Internships",
+        "description": "We support you in starting your professional journey with hands-on experience, suitable internship placements, and professional guidance throughout the application process."
       },
       {
-        "title": "Travel Adventures",
-        "description": "Broaden your horizons through cultural exchange, new perspectives, and unforgettable experiences—bringing learning and discovery together."
+        "title": "Cultural Experiences",
+        "description": "Broaden your horizons through intercultural exchange, new perspectives, and valuable international experiences."
       }
     ]
   },

@@ -9,6 +9,7 @@ const WhoWeAre = () => {
     t('whoWeAre.features.0'),
     t('whoWeAre.features.1'),
     t('whoWeAre.features.2'),
+    t('whoWeAre.features.3'),
   ];
 
   return (
