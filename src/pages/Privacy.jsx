@@ -47,7 +47,7 @@ const Privacy = () => {
                   info@stuventaa.de
                 </a>
                 <br />
-                {t("privacy.sections.responsible.phoneLabel")} +49 176 844826
+                {t("privacy.sections.responsible.phoneLabel")} +49 176 84482616
               </p>
             </section>
 
