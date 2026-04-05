@@ -19,38 +19,36 @@ const Hero = () => {
       id="home"
       className="relative h-[calc(100vh-80px)] min-h-[600px] flex items-center justify-center overflow-hidden bg-gray-50"
     >
-      {/* Background Image mit HELLEREM Overlay */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover object-center opacity-55"
           alt={t('hero.backgroundAlt')}
-          src="https://images.unsplash.com/photo-1696885343801-8ffdd7e25969?auto=format&fit=crop&w=1920&q=80"
+          src="https://images.unsplash.com/photo-1697990718230-b8e83532edcc?auto=format&fit=crop&crop=entropy&cs=srgb&w=1920&q=80"
           fetchpriority="high"
           loading="eager"
           decoding="async"
         />
+        {/* Horizontal gradient: strong edge fade, reinforced center for text legibility on saturated image */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/45 to-white/85"></div>
+      </div>
 
-  <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-white/80"></div>
-</div>
-
-      {/* Content mit DUNKLER Schrift */}
+      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {/* Text jetzt in slate-900 (sehr dunkles Blau-Grau) statt reinem Schwarz für mehr Eleganz */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 mb-6 leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#003366] mb-6 leading-tight tracking-tight drop-shadow-sm">
             {t('hero.title')}
           </h1>
-          
-          <p className="text-lg md:text-2xl text-slate-900 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
+
+          <p className="text-lg md:text-2xl text-slate-800 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
             {t('hero.subtitle')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            {/* Primärer Button bleibt Orange (Kontrast ist auf Weiß extrem stark) */}
             <Button
               onClick={() => scrollToSection('services')}
               size="lg"
@@ -58,12 +56,11 @@ const Hero = () => {
             >
               {t('hero.buttonPrograms')}
             </Button>
-            
-            {/* Sekundärer Button jetzt dunkel umrandet */}
+
             <Button
               onClick={() => scrollToSection('contact')}
               size="lg"
-              className="bg-transparent hover:bg-slate-100 text-slate-900 border-2 border-slate-900 px-10 py-7 text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
+              className="bg-transparent hover:bg-white/80 text-[#003366] border-2 border-[#003366] px-10 py-7 text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
             >
               {t('hero.buttonContact')}
             </Button>
