@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Study - Internships - Travel - Language Camps ",
+    "title": "Study - Internships - Travel - Language Camps",
     "subtitle": "Discover international programs, internships, language camps, and cultural experiences that help young people learn, grow, and broaden their horizons.",
     "buttonPrograms": "Explore Programs",
     "buttonContact": "Get Started",
@@ -43,110 +43,188 @@
     "kicker": "EUROPEAN LANDMARKS",
     "title": "A Glimpse of Your Adventure",
     "items": [
-      {
-        "name": "Brandenburg Gate",
-        "location": "Berlin, Germany"
-      },
-      {
-        "name": "London Eye",
-        "location": "London, UK"
-      },
-      {
-        "name": "Schönbrunn Palace",
-        "location": "Vienna, Austria"
-      },
-      {
-        "name": "Royal Palace of Madrid",
-        "location": "Madrid, Spain"
-      }
+      { "name": "Brandenburg Gate", "location": "Berlin, Germany" },
+      { "name": "London Eye", "location": "London, UK" },
+      { "name": "Schönbrunn Palace", "location": "Vienna, Austria" },
+      { "name": "Royal Palace of Madrid", "location": "Madrid, Spain" }
     ]
   },
   "nav": {
     "about": "About",
     "programs": "Programs",
     "contact": "Contact",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "impressum": "Legal Notice"
   },
-    "footer": {
+  "footer": {
     "slogan": "GLOBAL CONNECTIONS START HERE",
     "location": "GERMANY, LÜBECK",
     "rights": "ALL RIGHTS RESERVED.",
-    "privacyLink": "PRIVACY POLICY"
+    "privacyLink": "PRIVACY POLICY",
+    "impressumLink": "LEGAL NOTICE"
   },
-    "privacy": {
+  "privacy": {
     "seo": {
-      "title": "Privacy Policy | STUVENTAA",
-      "description": "Privacy Policy of STUVENTAA in accordance with the General Data Protection Regulation (GDPR)."
+      "title": "Privacy Policy – Stuventaa",
+      "description": "Privacy Policy of Stuventaa in accordance with the General Data Protection Regulation (GDPR)."
     },
     "header": {
       "kicker": "Legal",
       "title": "Privacy Policy",
-      "intro": "We take the protection of your personal data very seriously. This privacy policy explains how we collect, process, and protect your personal data in accordance with the General Data Protection Regulation (GDPR)."
+      "intro": "The protection of your personal data is important to us. All data processing is carried out in accordance with the General Data Protection Regulation (GDPR)."
     },
     "sections": {
       "responsible": {
-        "title": "1. Responsible Entity",
-        "location": "Germany, Lübeck",
-        "emailLabel": "Email:",
-        "phoneLabel": "Phone:"
+        "title": "1. Controller"
       },
-      "scope": {
-        "title": "2. Scope of This Privacy Policy",
-        "text": "This privacy policy applies to the website operated by STUVENTAA and all services offered through this website."
-      },
-      "processing": {
-        "title": "3. Personal Data Processing",
-        "text": "We process personal data only when you voluntarily contact us via:",
-        "channels": {
-          "email": "Email",
-          "phone": "Phone",
-          "inPerson": "Personal contact (in person)"
-        },
-        "note": "The processed data may include your email address, phone number, and the content of your inquiry."
+      "collection": {
+        "title": "2. Data Collection",
+        "text": "We collect personal data only when you voluntarily provide it to us, e.g. via email (name, contact details, CV)."
       },
       "purpose": {
-        "title": "4. Purpose of Processing",
+        "title": "3. Purpose of Processing",
+        "intro": "The data is used for:",
         "items": [
-          "Responding to inquiries",
-          "Providing information about our services",
-          "Direct communication with interested users"
+          "Placement of internships and programs",
+          "Selection of suitable candidates",
+          "Coordination with partner companies",
+          "Communication with participants"
         ]
       },
       "legalBasis": {
-        "title": "5. Legal Basis",
-        "text": "Personal data is processed on the following legal bases:",
+        "title": "4. Legal Basis",
         "items": [
-          "Art. 6(1)(b) GDPR – processing necessary for pre-contractual measures or contractual communication",
+          "Art. 6(1)(a) GDPR – consent for forwarding application documents (e.g. CV) to partner companies",
           "Art. 6(1)(f) GDPR – legitimate interest in responding to inquiries and maintaining communication"
         ]
       },
-      "storage": {
-        "title": "6. Data Storage and Deletion",
-        "text": "Personal data is stored only for as long as necessary to process your request or as required by legal retention obligations. After that, the data is deleted."
-      },
       "sharing": {
-        "title": "7. Data Sharing",
-        "text": "Your personal data will not be shared with third parties unless required by law."
+        "title": "5. Data Sharing with Third Parties",
+        "text": "Data is shared exclusively with your explicit consent with partner companies or partner organizations (Art. 6(1)(a) GDPR).",
+        "international": "In individual cases, data may be transferred to countries outside the European Union."
       },
-      "hosting": {
-        "title": "8. Hosting and Server Logs",
-        "text": "This website is hosted by Hostinger International Ltd. When visiting this website, the hosting provider automatically collects and stores information in server log files. These may include the IP address, date and time of access, browser type, operating system, and accessed pages. This data is processed for security, technical monitoring, and to ensure the stable operation of the website. The processing is based on Art. 6(1)(f) GDPR (legitimate interest)."
-      },
-      "cookies": {
-        "title": "9. Cookies and Tracking",
-        "text": "This website does not use cookies for tracking, analytics, or marketing purposes."
+      "storage": {
+        "title": "6. Retention Period",
+        "text": "Your data is stored only for as long as necessary for the respective purpose or until you request its deletion."
       },
       "rights": {
-        "title": "10. Your Rights",
-        "text": "You have the right to access, rectify, delete, or restrict the processing of your personal data, as well as the right to data portability and to object to processing (Art. 15–21 GDPR).",
-        "contact": "To exercise your rights, please contact us via email."
+        "title": "7. Your Rights",
+        "intro": "You have the right to:",
+        "items": [
+          "Access (Art. 15 GDPR)",
+          "Rectification (Art. 16 GDPR)",
+          "Erasure (Art. 17 GDPR)",
+          "Restriction of processing (Art. 18 GDPR)",
+          "Withdrawal of consent (Art. 7(3) GDPR)"
+        ],
+        "contact": "To exercise your rights, please contact us at"
+      },
+      "hosting": {
+        "title": "8. Hosting",
+        "text": "This website is hosted by Hostinger. The provider may collect server log files (e.g. IP address, access time, browser type). Processing is based on Art. 6(1)(f) GDPR (legitimate interest)."
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "text": "Technically necessary cookies may be used. No tracking, analytics, or marketing cookies are employed."
+      },
+      "ssl": {
+        "title": "10. SSL Encryption",
+        "text": "This website uses SSL/TLS encryption to ensure secure data transmission."
+      },
+      "contactSection": {
+        "title": "11. Contact Inquiries",
+        "text": "When you contact us, we store your details (name, email, content) to process your request. Data will be deleted once processing is complete, unless legal retention obligations apply."
+      },
+      "partnerDisclaimer": {
+        "title": "12. Role of Stuventaa",
+        "intro": "Stuventaa acts as an intermediary and coordinator.",
+        "items": [
+          "The final decision regarding programs or internships lies with the partner companies or organizations.",
+          "Payments are generally made directly between participants and partner companies.",
+          "Stuventaa assumes no liability for decisions, contractual relationships, or payment transactions between participants and partner companies."
+        ]
       },
       "complaint": {
-        "title": "11. Right to Lodge a Complaint",
+        "title": "13. Right to Lodge a Complaint",
         "text": "You have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data violates the GDPR."
       }
     },
     "lastUpdated": "Last updated:"
+  },
+  "impressum": {
+    "seo": {
+      "title": "Legal Notice – Stuventaa",
+      "description": "Legal notice and mandatory information pursuant to § 5 TMG for Stuventaa."
+    },
+    "header": {
+      "kicker": "Legal Information",
+      "title": "Legal Notice",
+      "subtitle": "Information pursuant to § 5 TMG (German Telemedia Act)"
+    },
+    "sections": {
+      "company": {
+        "title": "Company & Owner",
+        "companyLabel": "Company:",
+        "ownerLabel": "Owner:"
+      },
+      "address": {
+        "title": "Address",
+        "country": "Germany"
+      },
+      "contact": {
+        "title": "Contact",
+        "emailLabel": "Email:",
+        "additionalEmailLabel": "Additional Email:",
+        "phoneLabel": "Phone:"
+      },
+      "businessType": {
+        "title": "Business Type",
+        "text": "Small business pursuant to § 19 UStG (German VAT Act) — VAT not charged"
+      },
+      "activities": {
+        "title": "Description of Activities",
+        "intro": "Stuventaa provides services in the field of placement, selection, and coordination of interns as well as educational and exchange programs.",
+        "listIntro": "These include in particular:",
+        "items": [
+          "the placement and pre-selection of applicants for internships",
+          "collaboration with partner companies to provide suitable candidates",
+          "the organization of language camps combining learning and recreational activities",
+          "the placement of international programs (e.g. programs abroad combining work and language acquisition)",
+          "the provision and placement of online courses"
+        ],
+        "outro": "Stuventaa coordinates the exchange between participants and partner organizations and may offer accompanying support throughout programs."
+      },
+      "businessModel": {
+        "title": "Business Model & Liability",
+        "intro": "Stuventaa acts as an intermediary and coordinator between applicants, participants, and partner companies.",
+        "paragraphs": [
+          "The final decision regarding the acceptance of applicants or participants lies exclusively with the respective partner companies or organizations.",
+          "Payment for services offered is generally made directly between the participant and the respective partner company. Stuventaa is not the payment recipient for these services.",
+          "Stuventaa may receive commissions from partner companies for its placement services.",
+          "The specific payment terms may vary depending on the program and are agreed upon individually on a case-by-case basis.",
+          "Stuventaa assumes no liability for decisions, contractual relationships, or payment transactions between participants and partner companies."
+        ]
+      },
+      "responsible": {
+        "title": "Responsible for Content pursuant to § 55 Para. 2 RStV"
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "paragraphs": [
+          "The content of our pages has been created with the utmost care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content.",
+          "As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to § 7 Para. 1 TMG.",
+          "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot assume any liability for this external content."
+        ]
+      },
+      "copyright": {
+        "title": "Copyright",
+        "text": "The content and works created by the site operator on these pages are subject to German copyright law."
+      }
+    },
+    "lastUpdated": "Last updated:"
+  },
+  "errors": {
+    "navTitle": "Navigation Error",
+    "navSectionNotFound": "Section not found."
   }
-
 }

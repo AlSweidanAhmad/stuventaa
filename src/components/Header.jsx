@@ -14,15 +14,18 @@ const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  const ALLOWED_SECTIONS = ['home', 'about', 'services', 'contact'];
+
   const handleScroll = (id) => {
+    if (!ALLOWED_SECTIONS.includes(id)) return;
     setIsOpen(false);
 
     const scrollToId = () => {
       const element = document.getElementById(id);
       if (!element) {
         toast({
-          title: 'Navigation Error',
-          description: `Section ${id} not found.`,
+          title: t('errors.navTitle'),
+          description: t('errors.navSectionNotFound'),
           variant: 'destructive',
         });
         return;

@@ -43,111 +43,188 @@
     "kicker": "EUROPÄISCHE WAHRZEICHEN",
     "title": "Ein Blick auf Ihr Abenteuer",
     "items": [
-      {
-        "name": "Brandenburger Tor",
-        "location": "Berlin, Deutschland"
-      },
-      {
-        "name": "London Eye",
-        "location": "London, Vereinigtes Königreich"
-      },
-      {
-        "name": "Schloss Schönbrunn",
-        "location": "Wien, Österreich"
-      },
-      {
-        "name": "Königspalast von Madrid",
-        "location": "Madrid, Spanien"
-      }
+      { "name": "Brandenburger Tor", "location": "Berlin, Deutschland" },
+      { "name": "London Eye", "location": "London, Vereinigtes Königreich" },
+      { "name": "Schloss Schönbrunn", "location": "Wien, Österreich" },
+      { "name": "Königspalast von Madrid", "location": "Madrid, Spanien" }
     ]
   },
   "nav": {
     "about": "Über uns",
     "programs": "Programme",
     "contact": "Kontakt",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "impressum": "Impressum"
   },
-    "footer": {
+  "footer": {
     "slogan": "GLOBALE VERBINDUNGEN BEGINNEN HIER",
     "location": "DEUTSCHLAND, LÜBECK",
     "rights": "ALLE RECHTE VORBEHALTEN.",
-    "privacyLink": "DATENSCHUTZERKLÄRUNG"
+    "privacyLink": "DATENSCHUTZERKLÄRUNG",
+    "impressumLink": "IMPRESSUM"
   },
-    "privacy": {
+  "privacy": {
     "seo": {
-      "title": "Datenschutzerklärung | STUVENTAA",
-      "description": "Datenschutzerklärung von STUVENTAA gemäß der Datenschutz-Grundverordnung (DSGVO)."
+      "title": "Datenschutzerklärung – Stuventaa",
+      "description": "Datenschutzerklärung von Stuventaa gemäß DSGVO."
     },
     "header": {
       "kicker": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "intro": "Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Diese Datenschutzerklärung erläutert, wie wir personenbezogene Daten erheben, verarbeiten und schützen – im Einklang mit der Datenschutz-Grundverordnung (DSGVO)."
+      "intro": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Die Verarbeitung erfolgt gemäß der Datenschutz-Grundverordnung (DSGVO)."
     },
     "sections": {
       "responsible": {
-        "title": "1. Verantwortliche Stelle",
-        "location": "Deutschland, Lübeck",
-        "emailLabel": "E-Mail:",
-        "phoneLabel": "Telefon:"
+        "title": "1. Verantwortlicher"
       },
-      "scope": {
-        "title": "2. Geltungsbereich dieser Datenschutzerklärung",
-        "text": "Diese Datenschutzerklärung gilt für die von STUVENTAA betriebene Website sowie für alle über diese Website angebotenen Leistungen."
-      },
-      "processing": {
-        "title": "3. Verarbeitung personenbezogener Daten",
-        "text": "Wir verarbeiten personenbezogene Daten ausschließlich, wenn Sie uns freiwillig kontaktieren, z. B. über:",
-        "channels": {
-          "email": "E-Mail",
-          "phone": "Telefon",
-          "inPerson": "Persönlichen Kontakt (vor Ort)"
-        },
-        "note": "Die verarbeiteten Daten können Ihre E-Mail-Adresse, Telefonnummer sowie den Inhalt Ihrer Anfrage umfassen."
+      "collection": {
+        "title": "2. Erhebung von Daten",
+        "text": "Wir erheben personenbezogene Daten, wenn Sie uns diese freiwillig zur Verfügung stellen, z. B. per E-Mail (Name, Kontaktdaten, Lebenslauf)."
       },
       "purpose": {
-        "title": "4. Zweck der Verarbeitung",
+        "title": "3. Zweck der Verarbeitung",
+        "intro": "Die Daten werden verwendet zur:",
         "items": [
-          "Beantwortung von Anfragen",
-          "Bereitstellung von Informationen zu unseren Angeboten",
-          "Direkte Kommunikation mit Interessenten"
+          "Vermittlung von Praktika und Programmen",
+          "Auswahl geeigneter Kandidaten",
+          "Koordination mit Partnerunternehmen",
+          "Kommunikation mit Teilnehmern"
         ]
       },
       "legalBasis": {
-        "title": "5. Rechtsgrundlagen",
-        "text": "Die Verarbeitung personenbezogener Daten erfolgt auf folgenden Rechtsgrundlagen:",
+        "title": "4. Rechtsgrundlagen",
         "items": [
-          "Art. 6 Abs. 1 lit. b DSGVO – Verarbeitung zur Durchführung vorvertraglicher Maßnahmen oder zur Kommunikation im Rahmen eines Vertragsverhältnisses",
+          "Art. 6 Abs. 1 lit. a DSGVO – Einwilligung zur Weiterleitung von Bewerbungsunterlagen (z. B. Lebenslauf) an Partnerunternehmen",
           "Art. 6 Abs. 1 lit. f DSGVO – Berechtigtes Interesse an der Beantwortung von Anfragen und der Pflege der Kommunikation"
         ]
       },
-      "storage": {
-        "title": "6. Speicherdauer und Löschung",
-        "text": "Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Anschließend werden die Daten gelöscht."
-      },
       "sharing": {
-        "title": "7. Weitergabe von Daten",
-        "text": "Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nicht, sofern keine gesetzliche Verpflichtung besteht."
+        "title": "5. Weitergabe an Dritte",
+        "text": "Eine Weitergabe erfolgt ausschließlich mit Ihrer ausdrücklichen Einwilligung an Partnerunternehmen oder Partnerorganisationen (Art. 6 Abs. 1 lit. a DSGVO).",
+        "international": "In Einzelfällen kann eine Übermittlung in Länder außerhalb der Europäischen Union erfolgen."
       },
-      "hosting": {
-        "title": "8. Hosting und Server-Logfiles",
-        "text": "Beim Zugriff auf diese Website können technische Daten (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp und Betriebssystem) durch den Hosting-Anbieter aus Sicherheits- und technischen Gründen verarbeitet werden. Diese Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO."
-      },
-      "cookies": {
-        "title": "9. Cookies und Tracking",
-        "text": "Diese Website verwendet keine Cookies zu Tracking-, Analyse- oder Marketingzwecken."
+      "storage": {
+        "title": "6. Speicherdauer",
+        "text": "Ihre Daten werden nur so lange gespeichert, wie es für den jeweiligen Zweck erforderlich ist oder bis Sie eine Löschung verlangen."
       },
       "rights": {
-        "title": "10. Ihre Rechte",
-        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie das Recht auf Datenübertragbarkeit und das Recht, der Verarbeitung zu widersprechen (Art. 15–21 DSGVO).",
-        "contact": "Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte per E-Mail."
+        "title": "7. Ihre Rechte",
+        "intro": "Sie haben das Recht auf:",
+        "items": [
+          "Auskunft (Art. 15 DSGVO)",
+          "Berichtigung (Art. 16 DSGVO)",
+          "Löschung (Art. 17 DSGVO)",
+          "Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+          "Widerruf Ihrer Einwilligung (Art. 7 Abs. 3 DSGVO)"
+        ],
+        "contact": "Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte unter"
+      },
+      "hosting": {
+        "title": "8. Hosting",
+        "text": "Diese Website wird bei Hostinger gehostet. Der Anbieter kann Server-Logfiles erfassen (z. B. IP-Adresse, Zugriffszeitpunkt, Browsertyp). Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO."
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "text": "Es können technisch notwendige Cookies verwendet werden. Tracking-, Analyse- oder Marketingcookies werden nicht eingesetzt."
+      },
+      "ssl": {
+        "title": "10. SSL-Verschlüsselung",
+        "text": "Diese Website nutzt eine SSL-/TLS-Verschlüsselung für eine sichere Datenübertragung."
+      },
+      "contactSection": {
+        "title": "11. Kontaktaufnahme",
+        "text": "Wenn Sie uns kontaktieren, speichern wir Ihre Angaben (Name, E-Mail, Inhalt) zur Bearbeitung Ihrer Anfrage. Die Daten werden nach Abschluss der Bearbeitung gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen."
+      },
+      "partnerDisclaimer": {
+        "title": "12. Rolle von Stuventaa",
+        "intro": "Stuventaa fungiert als Vermittler und Koordinator.",
+        "items": [
+          "Die finale Entscheidung über Programme oder Praktika liegt bei den Partnerunternehmen oder Organisationen.",
+          "Zahlungen erfolgen grundsätzlich direkt zwischen Teilnehmern und Partnerunternehmen.",
+          "Stuventaa übernimmt keine Haftung für Entscheidungen, Vertragsverhältnisse oder Zahlungsabwicklungen zwischen Teilnehmern und Partnerunternehmen."
+        ]
       },
       "complaint": {
-        "title": "11. Beschwerderecht bei einer Aufsichtsbehörde",
+        "title": "13. Beschwerderecht bei einer Aufsichtsbehörde",
         "text": "Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt."
       }
     },
     "lastUpdated": "Zuletzt aktualisiert:"
+  },
+  "impressum": {
+    "seo": {
+      "title": "Impressum – Stuventaa",
+      "description": "Impressum und rechtliche Angaben gemäß § 5 TMG von Stuventaa."
+    },
+    "header": {
+      "kicker": "Rechtliche Informationen",
+      "title": "Impressum",
+      "subtitle": "Angaben gemäß § 5 TMG"
+    },
+    "sections": {
+      "company": {
+        "title": "Unternehmen & Inhaber",
+        "companyLabel": "Unternehmen:",
+        "ownerLabel": "Inhaber:"
+      },
+      "address": {
+        "title": "Adresse",
+        "country": "Deutschland"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "emailLabel": "E-Mail:",
+        "additionalEmailLabel": "Weitere E-Mail:",
+        "phoneLabel": "Telefon:"
+      },
+      "businessType": {
+        "title": "Unternehmensform",
+        "text": "Kleingewerbe gemäß § 19 UStG (keine Ausweisung der Umsatzsteuer)"
+      },
+      "activities": {
+        "title": "Tätigkeitsbeschreibung",
+        "intro": "Stuventaa bietet Dienstleistungen im Bereich der Vermittlung, Auswahl und Koordination von Praktikanten sowie Bildungs- und Austauschprogrammen an.",
+        "listIntro": "Dazu gehören insbesondere:",
+        "items": [
+          "die Vermittlung und Vorauswahl von Bewerbern für Praktika",
+          "die Zusammenarbeit mit Partnerunternehmen zur Bereitstellung geeigneter Kandidaten",
+          "die Organisation von Sprachcamps, die Lernen und Freizeitaktivitäten kombinieren",
+          "die Vermittlung internationaler Programme (z. B. Programme im Ausland mit Arbeit und Spracherwerb)",
+          "die Bereitstellung und Vermittlung von Online-Kursen"
+        ],
+        "outro": "Stuventaa koordiniert den Austausch zwischen Teilnehmern und Partnerorganisationen und kann eine begleitende Unterstützung während der Programme anbieten."
+      },
+      "businessModel": {
+        "title": "Geschäftsmodell & Haftung",
+        "intro": "Stuventaa fungiert als Vermittler und Koordinator zwischen Bewerbern, Teilnehmern und Partnerunternehmen.",
+        "paragraphs": [
+          "Die finale Entscheidung über die Annahme von Bewerbern oder Teilnehmern liegt ausschließlich bei den jeweiligen Partnerunternehmen oder Organisationen.",
+          "Die Zahlung für angebotene Leistungen erfolgt grundsätzlich direkt zwischen dem Teilnehmer und dem jeweiligen Partnerunternehmen. Stuventaa ist nicht Zahlungsempfänger dieser Leistungen.",
+          "Stuventaa erhält gegebenenfalls Provisionen von Partnerunternehmen für die Vermittlung.",
+          "Die konkreten Zahlungsbedingungen können je nach Programm variieren und werden im Einzelfall individuell vereinbart.",
+          "Stuventaa übernimmt keine Haftung für Entscheidungen, Vertragsverhältnisse oder Zahlungsabwicklungen zwischen Teilnehmern und Partnerunternehmen."
+        ]
+      },
+      "responsible": {
+        "title": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "paragraphs": [
+          "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+          "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.",
+          "Unsere Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen."
+        ]
+      },
+      "copyright": {
+        "title": "Urheberrecht",
+        "text": "Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert:"
+  },
+  "errors": {
+    "navTitle": "Navigationsfehler",
+    "navSectionNotFound": "Abschnitt nicht gefunden."
   }
-
-
 }
