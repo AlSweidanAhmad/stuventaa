@@ -12,19 +12,19 @@ const VisualGallery = () => {
   const landmarks = [
     {
       ...items[0],
-      img: 'https://images.unsplash.com/photo-1560930950-5cc20e80e392'
+      img: 'https://images.unsplash.com/photo-1560930950-5cc20e80e392?auto=format&fit=crop&w=1200&q=80'
     },
     {
       ...items[1],
-      img: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad'
+      img: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80'
     },
     {
       ...items[2],
-      img: 'https://images.unsplash.com/photo-1679600790489-7b1233482325?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      img: 'https://images.unsplash.com/photo-1679600790489-7b1233482325?auto=format&fit=crop&w=1200&q=80'
     },
     {
       ...items[3],
-      img: 'https://images.unsplash.com/photo-1574556462575-eb106a5865a0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      img: 'https://images.unsplash.com/photo-1574556462575-eb106a5865a0?auto=format&fit=crop&w=1200&q=80'
     }
   ];
 
@@ -55,6 +55,8 @@ const VisualGallery = () => {
               src={landmark.img}
               alt={landmark.name}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
               {/* Adjusted gradient opacity */}

@@ -22,9 +22,12 @@ const Hero = () => {
       {/* Background Image mit HELLEREM Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-         className="w-full h-full object-cover opacity-60"
-         alt={t('hero.backgroundAlt')}
-          src="https://images.unsplash.com/photo-1696885343801-8ffdd7e25969"
+          className="w-full h-full object-cover opacity-60"
+          alt={t('hero.backgroundAlt')}
+          src="https://images.unsplash.com/photo-1696885343801-8ffdd7e25969?auto=format&fit=crop&w=1920&q=80"
+          fetchpriority="high"
+          loading="eager"
+          decoding="async"
         />
 
   <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/20 to-white/80"></div>

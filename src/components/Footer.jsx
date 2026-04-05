@@ -14,10 +14,12 @@ const Footer = () => {
       {/* Background Map Pattern - Simulated with opacity mask on image */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <img
-          src="https://images.unsplash.com/photo-1589519160732-5796712a180d"
-          alt="World Map Pattern"
+          src="https://images.unsplash.com/photo-1589519160732-5796712a180d?auto=format&fit=crop&w=1920&q=60"
+          alt=""
+          aria-hidden="true"
           className="w-full h-full object-cover"
           loading="lazy"
+          decoding="async"
         />
       </div>
 
@@ -70,12 +72,20 @@ const Footer = () => {
             © {new Date().getFullYear()} STUVENTAA. {t('footer.rights')}
           </p>
 
-          <Link
-            to="/privacy"
-            className="inline-block mt-4 text-white/40 text-xs tracking-wider hover:text-white transition-colors"
-          >
-            {t('footer.privacyLink')}
-          </Link>
+          <div className="flex flex-wrap gap-x-6 gap-y-2 mt-4">
+            <Link
+              to="/privacy"
+              className="text-white/40 text-xs tracking-wider hover:text-white transition-colors"
+            >
+              {t('footer.privacyLink')}
+            </Link>
+            <Link
+              to="/impressum"
+              className="text-white/40 text-xs tracking-wider hover:text-white transition-colors"
+            >
+              {t('footer.impressumLink')}
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -31,7 +31,9 @@ const WhoWeAre = () => {
               <img
                 className="w-full h-full object-cover"
                 alt={t('whoWeAre.imageAlt')}
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-black/15"></div>
             </div>

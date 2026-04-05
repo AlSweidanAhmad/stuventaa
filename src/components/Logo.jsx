@@ -10,6 +10,7 @@ const Logo = ({ className }) => {
         src={logoImg}
         alt="Stuventaa Logo"
         className="w-[180px] h-auto object-contain"
+        decoding="async"
       />
 
       {/* TEXT 
