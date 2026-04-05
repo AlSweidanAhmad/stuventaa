@@ -42,7 +42,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#003366] mb-4 sm:mb-6 leading-tight tracking-tight drop-shadow-sm">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#003366] mb-4 sm:mb-6 leading-tight tracking-tight drop-shadow-sm">
             {t('hero.title')}
           </h1>
 
@@ -54,7 +54,7 @@ const Hero = () => {
             <Button
               onClick={() => scrollToSection('services')}
               size="lg"
-              className="bg-[#FF6600] hover:bg-[#E55A00] text-white px-7 sm:px-10 py-5 sm:py-7 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-lg uppercase tracking-wider w-full sm:w-auto"
+              className="bg-[#FF6600] hover:bg-[#E55A00] text-white px-7 sm:px-10 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-lg uppercase tracking-wider w-full sm:w-auto"
             >
               {t('hero.buttonPrograms')}
             </Button>
@@ -62,7 +62,7 @@ const Hero = () => {
             <Button
               onClick={() => scrollToSection('contact')}
               size="lg"
-              className="bg-transparent hover:bg-white/80 text-[#003366] border-2 border-[#003366] px-7 sm:px-10 py-5 sm:py-7 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
+              className="bg-transparent hover:bg-white/80 text-[#003366] border-2 border-[#003366] px-7 sm:px-10 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
             >
               {t('hero.buttonContact')}
             </Button>
