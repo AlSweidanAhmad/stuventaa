@@ -54,7 +54,10 @@
     "programs": "Programme",
     "contact": "Kontakt",
     "privacy": "Datenschutz",
-    "impressum": "Impressum"
+    "impressum": "Impressum",
+    "scrollToTop": "Zur Startseite scrollen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "footer": {
     "slogan": "GLOBALE VERBINDUNGEN BEGINNEN HIER",

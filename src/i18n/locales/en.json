@@ -54,7 +54,10 @@
     "programs": "Programs",
     "contact": "Contact",
     "privacy": "Privacy Policy",
-    "impressum": "Legal Notice"
+    "impressum": "Legal Notice",
+    "scrollToTop": "Scroll to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "footer": {
     "slogan": "GLOBAL CONNECTIONS START HERE",

@@ -65,7 +65,7 @@ const Header = () => {
         <button
           onClick={() => handleScroll('home')}
           className="focus:outline-none hover:opacity-80 transition-opacity"
-          aria-label="Scroll to top"
+          aria-label={t('nav.scrollToTop')}
         >
           <Logo />
         </button>
@@ -122,7 +122,7 @@ const Header = () => {
         <button
           className="md:hidden text-[#003366]"
           onClick={() => setIsOpen(!isOpen)}
-          aria-label={isOpen ? 'Close menu' : 'Open menu'}
+          aria-label={isOpen ? t('nav.closeMenu') : t('nav.openMenu')}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
