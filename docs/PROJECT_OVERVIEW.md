@@ -1,28 +1,35 @@
 # Project Overview
 
-This repository contains a frontend web application implemented using React, Vite, and Tailwind CSS.
+This repository is the official frontend website for **Stuventaa** — a platform that empowers students to Study, Travel, Work, and complete Internships in Germany.
 
 ## Scope
 
-The scope of this project is limited to frontend development. It focuses on layout composition, component structure, and styling using modern tooling.
+Frontend-only. Focuses on layout, component structure, multilingual content, and SEO. No backend or API layer in this repository.
 
 ## Objectives
 
-- Establish a clean and understandable project structure
-- Practice component-based frontend development
-- Maintain a predictable development and build workflow
-- Keep the codebase readable and easy to extend
+- Present Stuventaa's services and value proposition clearly to prospective students
+- Support German and English audiences via built-in i18n
+- Maintain a fast, accessible, and SEO-ready static site
+- Keep the codebase component-based, readable, and easy to extend
+
+## Target Audience
+
+Students (primarily German-speaking and international) seeking educational programs, internships, and travel opportunities in Germany.
 
 ## Current State
 
-- Core application layout implemented
-- Reusable components organized in a shared structure
-- Styling handled consistently through Tailwind CSS
-- Documentation initialized and maintained
+- Core landing page implemented: Hero, WhoWeAre, Services, VisualGallery
+- Client-side routing active: `/` (Home), `/privacy` (Privacy Policy), `/impressum` (Legal Notice)
+- Page-First-Struktur: jede Route hat eine eigene Datei unter `src/pages/`; gemeinsames Layout in `src/layout/MainLayout.jsx`
+- Internationalization live: German (`de`) and English (`en`) via `react-i18next` with browser language detection
+- SEO metadata managed via `react-helmet` (pro Page-Datei)
+- Reusable UI components (Radix UI + Tailwind CSS) organized under `src/components/ui/`
+- Documentation initialized and maintained under `docs/`
 
 ## Future Considerations
 
-- Client-side routing
-- Accessibility improvements
-- Code refactoring and optimization
+- Accessibility audit and improvements (WCAG compliance)
+- Contact form or lead capture integration
+- Additional content sections (team, testimonials, FAQ)
 - Integration with external services or APIs if required
