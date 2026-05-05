@@ -47,7 +47,7 @@ const WhoWeAre = () => {
             transition={{ duration: 0.8 }}
             className="order-1 md:order-2"
           >
-            <h2 className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">
+            <h2 className="text-sm font-bold text-[#003366] tracking-widest uppercase mb-3">
               {t('whoWeAre.kicker')}
             </h2>
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extralight text-gray-900 mb-8 leading-tight">
@@ -72,7 +72,7 @@ const WhoWeAre = () => {
                   transition={{ duration: 0.5, delay: index * 0.15 }}
                   className="flex items-start gap-4"
                 >
-                  <span className="w-2 h-2 rounded-full bg-[#FF6600] mt-2 flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-[#003366] mt-2 flex-shrink-0" />
                   <span className="text-gray-700 text-lg">{feature}</span>
                 </motion.li>
               ))}
@@ -80,7 +80,7 @@ const WhoWeAre = () => {
 
             <div className="space-y-4 text-gray-600 text-base leading-relaxed border-t border-gray-300 pt-8 mt-12">
               <p>{t('whoWeAre.footerText')}</p>
-              <p className="text-[#FF6600] font-semibold text-lg">
+              <p className="text-[#003366] font-semibold text-lg">
                 {t('whoWeAre.highlight')}
               </p>
             </div>

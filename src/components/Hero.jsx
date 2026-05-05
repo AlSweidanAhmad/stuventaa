@@ -19,20 +19,17 @@ const Hero = () => {
       id="home"
       className="relative h-[calc(100vh-80px)] min-h-[500px] flex items-center justify-center overflow-hidden bg-gray-50"
     >
-      {/* Background Image — higher opacity for natural, non-washed look */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          className="w-full h-full object-cover object-center opacity-70"
+          className="w-full h-full object-cover object-center"
           alt={t('hero.backgroundAlt')}
-          src="https://images.unsplash.com/photo-1697990718230-b8e83532edcc?auto=format&fit=crop&crop=entropy&cs=srgb&w=1920&q=80"
+          src='\src\assets\hero.jpg'
           fetchpriority="high"
           loading="eager"
           decoding="async"
         />
-        {/* Subtle navy depth layer — adds richness without darkening */}
-        <div className="absolute inset-0 bg-[#003366]/10"></div>
-        {/* Soft edge fade — minimal centre coverage to keep image alive */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/60 via-white/10 to-white/60"></div>
+        <div className="absolute inset-0 bg-black/10"></div>
       </div>
 
       {/* Content */}
@@ -42,11 +39,11 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#003366] mb-4 sm:mb-6 leading-tight tracking-tight drop-shadow-sm">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 sm:mb-6 leading-tight tracking-tight [text-shadow:0_2px_6px_rgba(0,0,0,0.9),0_0_12px_rgba(0,0,0,0.6)]">
             {t('hero.title')}
           </h1>
 
-          <p className="text-base sm:text-lg md:text-2xl text-slate-800 mb-8 sm:mb-12 max-w-4xl mx-auto font-medium leading-relaxed drop-shadow-sm">
+          <p className="text-base sm:text-lg md:text-2xl text-white mb-8 sm:mb-12 max-w-4xl mx-auto font-medium leading-relaxed [text-shadow:0_2px_5px_rgba(0,0,0,0.8),0_0_10px_rgba(0,0,0,0.5)]">
             {t('hero.subtitle')}
           </p>
 
@@ -62,7 +59,7 @@ const Hero = () => {
             <Button
               onClick={() => scrollToSection('contact')}
               size="lg"
-              className="bg-transparent hover:bg-white/80 text-[#003366] border-2 border-[#003366] px-7 sm:px-10 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
+              className="bg-transparent hover:bg-white/20 text-white border-2 border-white px-7 sm:px-10 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-sm transition-all duration-300 shadow-sm uppercase tracking-wider w-full sm:w-auto"
             >
               {t('hero.buttonContact')}
             </Button>
