@@ -21,3 +21,9 @@ node_modules/
 dist/
 .env
 
+# Documentation files
+Docs/
+
+# Local skills and Claude agents (project-local, not for repo)
+.agents/
+skills-lock.json
