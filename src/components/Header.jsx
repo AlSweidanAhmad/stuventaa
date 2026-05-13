@@ -50,7 +50,7 @@ const Header = () => {
     { label: t('nav.about'), id: 'about' },
     { label: t('nav.programs'), id: 'services' },
     { label: t('nav.contact'), id: 'contact' },
-    { label: t('nav.privacy'), id: 'privacy' },
+    { label: t('nav.privacy'), id: 'privacy', path: '/privacy' },
     { label: t('nav.b2b'), id: 'b2b', path: '/b2b' },
   ];
 
