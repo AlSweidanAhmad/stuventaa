@@ -232,45 +232,45 @@
     "navSectionNotFound": "Abschnitt nicht gefunden."
   },
   "b2b": {
-    "seo": { "title": "Stuventaa – B2B Praktikantenvermittlung" },
+    "seo": { "title": "Stuventaa – Praktikantenvermittlung für Unternehmen" },
     "hero": {
-      "badge": "B2B Praktikantenvermittlung",
-      "subtitle": "Vorgeprüfte Studierende aus IT, Business und Ingenieurwesen für Unternehmen in Deutschland"
+      "badge": "Praktikantenvermittlung für Unternehmen",
+      "subtitle": "Vorgeprüfte Praktikanten aus IT, Business und Ingenieurwesen — passend für Ihr Team"
     },
     "about": {
       "eyebrow": "Wer wir sind",
       "title": "Über Stuventaa",
-      "card1": "Stuventaa ist eine spezialisierte Vermittlungsagentur für internationale Studierende, die ein Pflichtpraktikum in Deutschland absolvieren müssen.",
-      "card2": "Wir übernehmen das Matching und die Vorqualifizierung — den Praktikumsvertrag schließt der Kandidat direkt mit Ihrem Unternehmen."
+      "card1": "Stuventaa vermittelt Unternehmen internationale Studierende, die ihr Pflichtpraktikum in Deutschland absolvieren.",
+      "card2": "Wir übernehmen Suche und Vorauswahl — den Praktikumsvertrag schließt der Kandidat direkt mit Ihrem Unternehmen."
     },
     "problem": {
       "eyebrow": "Herausforderung",
-      "title": "Das Problem",
+      "title": "Kommt Ihnen das bekannt vor?",
       "items": [
-        "Hoher Aufwand im CV-Screening",
-        "Viele unpassende Bewerbungen",
-        "Schwierige kurzfristige Besetzung von Praktikumsstellen",
-        "Fehlende Vorauswahl nach Fachbereich"
+        "Zu viel Zeit für die Bewerbungssichtung",
+        "Kaum passende Bewerbungen",
+        "Praktikumsstellen kurzfristig zu besetzen ist mühsam",
+        "Keine Filterung nach Fachrichtung"
       ]
     },
     "solution": {
       "eyebrow": "Was wir bieten",
       "title": "Unsere Lösung",
       "items": [
-        "Vorqualifizierte Praktikanten aus relevanten Studienrichtungen",
-        "Präzises Matching nach Unternehmensbedarf",
-        "Geprüfte Fähigkeiten (Excel, IT-Skills, Analyse, Kommunikation)",
-        "Schnelle und effiziente Besetzung offener Praktikumsstellen"
+        "Vorqualifizierte Praktikanten passend zu Ihrer Fachrichtung",
+        "Gezieltes Matching nach Ihren Anforderungen",
+        "Geprüfte Kenntnisse in Excel, IT, Analyse und Kommunikation",
+        "Schnelle Besetzung offener Praktikumsstellen"
       ]
     },
     "candidates": {
-      "eyebrow": "Talent Pool",
-      "title": "Kandidatenprofile",
-      "traitsTitle": "Eigenschaften unserer Kandidaten",
+      "eyebrow": "Talentpool",
+      "title": "Wen wir vermitteln",
+      "traitsTitle": "Was unsere Kandidaten mitbringen",
       "fields": [
         "Finance / Business / Management",
         "Informatik / IT / Data / Software",
-        "Ingenieurwesen (Mechanical, Civil, Electrical)"
+        "Ingenieurwesen (Maschinenbau, Bau, Elektro)"
       ],
       "traits": [
         "Deutsch: B2–C1",
@@ -283,36 +283,36 @@
       "eyebrow": "Wie es funktioniert",
       "title": "Unser Prozess",
       "steps": [
-        "Anforderungen aufnehmen",
-        "Kandidaten aus Talentpool auswählen",
-        "Skills & Sprache prüfen",
-        "Shortlist an Unternehmen übergeben",
-        "Interview — Vertrag direkt mit dem Unternehmen"
+        "Wir erfassen Ihre Anforderungen",
+        "Wir wählen passende Kandidaten aus unserem Talentpool",
+        "Wir prüfen Fähigkeiten und Sprachniveau",
+        "Wir stellen Ihnen eine Shortlist vor",
+        "Sie führen das Interview und schließen den Vertrag direkt ab"
       ]
     },
     "value": {
-      "eyebrow": "Benefits",
-      "title": "Mehrwert für Unternehmen",
+      "eyebrow": "Ihre Vorteile",
+      "title": "Was Sie gewinnen",
       "items": [
-        "Reduzierung des Recruiting-Aufwands",
-        "Zugang zu passenden Fachrichtungen (IT, Business, Engineering)",
-        "Schnellere Besetzung von Praktikumsstellen",
-        "Höhere Qualität der Bewerber"
+        "Weniger Aufwand beim Recruiting",
+        "Zugang zu Kandidaten aus IT, Business und Ingenieurwesen",
+        "Schnellere Besetzung Ihrer Praktikumsstellen",
+        "Durchgehend hochwertige Bewerber"
       ]
     },
     "why": {
       "eyebrow": "Unsere Stärken",
       "title": "Warum Stuventaa?",
       "items": [
-        "Breiter Talentpool aus mehreren Fachrichtungen",
-        "Vorqualifizierte und geprüfte Kandidaten",
-        "Schnelles Matching nach Bedarf",
-        "Fokus auf Qualität, nicht Masse"
+        "Umfangreicher Talentpool über mehrere Fachbereiche",
+        "Jeder Kandidat ist vorqualifiziert und geprüft",
+        "Schnelles Matching, abgestimmt auf Ihre Anforderungen",
+        "Qualität statt Masse — immer"
       ]
     },
     "contact": {
       "title": "Bereit loszulegen?",
-      "subtitle": "Stuventaa · B2B Praktikantenvermittlung"
+      "subtitle": "Stuventaa · Praktikantenvermittlung für Unternehmen"
     }
   }
 }

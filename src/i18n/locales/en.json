@@ -232,41 +232,41 @@
     "navSectionNotFound": "Section not found."
   },
   "b2b": {
-    "seo": { "title": "Stuventaa – B2B Internship Placement" },
+    "seo": { "title": "Stuventaa – Internship Placement for Companies" },
     "hero": {
-      "badge": "B2B Internship Placement",
-      "subtitle": "Pre-screened students from IT, Business and Engineering for companies in Germany"
+      "badge": "Internship Placement for Companies",
+      "subtitle": "Pre-screened interns from IT, Business, and Engineering — ready for your team"
     },
     "about": {
       "eyebrow": "Who we are",
       "title": "About Stuventaa",
-      "card1": "Stuventaa is a specialized placement agency for international students who are required to complete a mandatory internship in Germany.",
-      "card2": "We handle the matching and pre-qualification — the internship contract is signed directly between the candidate and your company."
+      "card1": "Stuventaa is a specialized placement service connecting companies with international students completing a mandatory internship in Germany.",
+      "card2": "We take care of sourcing and pre-screening — the internship contract is signed directly between the candidate and your company."
     },
     "problem": {
       "eyebrow": "The Challenge",
-      "title": "The Problem",
+      "title": "Sound familiar?",
       "items": [
-        "High effort in CV screening",
-        "Many unsuitable applications",
-        "Difficult short-notice filling of internship positions",
-        "No pre-selection by field of study"
+        "Too much time spent screening CVs",
+        "Most applicants don't fit the role",
+        "Hard to fill internship positions on short notice",
+        "No filtering by field of study"
       ]
     },
     "solution": {
       "eyebrow": "What we offer",
       "title": "Our Solution",
       "items": [
-        "Pre-qualified interns from relevant fields of study",
-        "Precise matching based on company requirements",
-        "Verified skills (Excel, IT skills, analysis, communication)",
-        "Fast and efficient filling of open internship positions"
+        "Pre-qualified interns matched to your field",
+        "Tailored selection based on your requirements",
+        "Verified skills in Excel, IT, analytics, and communication",
+        "Fast placement for open internship roles"
       ]
     },
     "candidates": {
       "eyebrow": "Talent Pool",
-      "title": "Candidate Profiles",
-      "traitsTitle": "Our Candidates' Characteristics",
+      "title": "Who We Place",
+      "traitsTitle": "What Our Candidates Bring",
       "fields": [
         "Finance / Business / Management",
         "Computer Science / IT / Data / Software",
@@ -274,45 +274,45 @@
       ],
       "traits": [
         "German: B2–C1",
-        "Good Excel, PowerPoint and IT skills",
-        "Analytical and technical skills",
-        "Based in Germany and available on short notice"
+        "Proficient in Excel, PowerPoint, and IT tools",
+        "Strong analytical and technical skills",
+        "Based in Germany, available on short notice"
       ]
     },
     "process": {
       "eyebrow": "How it works",
       "title": "Our Process",
       "steps": [
-        "Gather company requirements",
-        "Select candidates from talent pool",
-        "Verify skills & language",
-        "Hand over shortlist to company",
-        "Interview — contract signed directly with your company"
+        "We learn about your requirements",
+        "We match candidates from our talent pool",
+        "We verify skills and language level",
+        "We share a shortlist with your team",
+        "You interview and sign directly with the candidate"
       ]
     },
     "value": {
       "eyebrow": "Benefits",
-      "title": "Value for Companies",
+      "title": "What You Gain",
       "items": [
-        "Reduced recruiting effort",
-        "Access to relevant fields of study (IT, Business, Engineering)",
-        "Faster filling of internship positions",
-        "Higher quality applicants"
+        "Less time spent on recruiting",
+        "Candidates from IT, Business, and Engineering",
+        "Faster placement for open internship roles",
+        "Higher-quality applicants, every time"
       ]
     },
     "why": {
       "eyebrow": "Our Strengths",
       "title": "Why Stuventaa?",
       "items": [
-        "Broad talent pool across multiple fields of study",
-        "Pre-qualified and verified candidates",
-        "Fast matching based on your needs",
-        "Focus on quality, not volume"
+        "Wide talent pool across multiple disciplines",
+        "Every candidate is pre-qualified and verified",
+        "Fast matching tailored to your needs",
+        "Quality over quantity — always"
       ]
     },
     "contact": {
       "title": "Ready to get started?",
-      "subtitle": "Stuventaa · B2B Internship Placement"
+      "subtitle": "Stuventaa · Internship Placement for Companies"
     }
   }
 }
