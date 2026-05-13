@@ -27,7 +27,7 @@ i18n
     },
 
     interpolation: {
-      escapeValue: false // React already protects from XSS
+      escapeValue: true
     },
 
     react: {

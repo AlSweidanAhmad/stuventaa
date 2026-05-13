@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
+import heroImg from '../assets/hero.jpg';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -24,7 +25,7 @@ const Hero = () => {
         <img
           className="w-full h-full object-cover object-center"
           alt={t('hero.backgroundAlt')}
-          src='\src\assets\hero.jpg'
+          src={heroImg}
           fetchpriority="high"
           loading="eager"
           decoding="async"
