@@ -60,18 +60,18 @@ export default function B2B() {
         </section>
 
         {/* Über uns */}
-        <section className="py-20 px-6 bg-[#f8fafc]">
+        <section className="py-14 sm:py-20 px-4 sm:px-6 bg-[#f8fafc]">
           <div className="max-w-5xl mx-auto">
-            <motion.div {...f} className="text-center mb-12">
+            <motion.div {...f} className="text-center mb-10">
               <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.about.eyebrow')}</p>
-              <h2 className="font-syne text-4xl font-bold text-[#003366]">{t('b2b.about.title')}</h2>
+              <h2 className="font-syne text-3xl sm:text-4xl font-bold text-[#003366]">{t('b2b.about.title')}</h2>
             </motion.div>
-            <div className="grid md:grid-cols-2 gap-6">
-              <motion.div {...f} className="p-8 rounded-2xl bg-white shadow-sm border border-gray-100">
+            <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
+              <motion.div {...f} className="p-6 sm:p-8 rounded-2xl bg-white shadow-sm border border-gray-100">
                 <Users className="w-8 h-8 text-[#FF6600] mb-4" />
                 <p className="text-gray-600 leading-relaxed">{t('b2b.about.card1')}</p>
               </motion.div>
-              <motion.div {...f} transition={{ delay: 0.1, duration: 0.6 }} className="p-8 rounded-2xl bg-[#003366] shadow-sm">
+              <motion.div {...f} transition={{ delay: 0.1, duration: 0.6 }} className="p-6 sm:p-8 rounded-2xl bg-[#003366] shadow-sm">
                 <Target className="w-8 h-8 text-[#FF6600] mb-4" />
                 <p className="text-white/75 leading-relaxed">{t('b2b.about.card2')}</p>
               </motion.div>
@@ -80,12 +80,12 @@ export default function B2B() {
         </section>
 
         {/* Problem + Lösung */}
-        <section className="py-20 px-6">
+        <section className="py-14 sm:py-20 px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
               <motion.div {...f}>
                 <p className="text-sm font-bold text-red-500 tracking-widest uppercase mb-3">{t('b2b.problem.eyebrow')}</p>
-                <h3 className="font-syne text-3xl font-bold text-[#003366] mb-8">{t('b2b.problem.title')}</h3>
+                <h3 className="font-syne text-2xl sm:text-3xl font-bold text-[#003366] mb-6 sm:mb-8">{t('b2b.problem.title')}</h3>
                 <div className="space-y-4">
                   {problems.map((p, i) => (
                     <div key={i} className="flex gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
@@ -97,7 +97,7 @@ export default function B2B() {
               </motion.div>
               <motion.div {...f} transition={{ delay: 0.15, duration: 0.6 }}>
                 <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.solution.eyebrow')}</p>
-                <h3 className="font-syne text-3xl font-bold text-[#003366] mb-8">{t('b2b.solution.title')}</h3>
+                <h3 className="font-syne text-2xl sm:text-3xl font-bold text-[#003366] mb-6 sm:mb-8">{t('b2b.solution.title')}</h3>
                 <div className="space-y-4">
                   {solutions.map((s, i) => (
                     <div key={i} className="flex gap-4 p-4 rounded-xl bg-green-50 border border-green-100">
@@ -148,11 +148,11 @@ export default function B2B() {
         </section>
 
         {/* Prozess */}
-        <section className="py-20 px-6 bg-[#003366] text-white">
+        <section className="py-14 sm:py-20 px-4 sm:px-6 bg-[#003366] text-white">
           <div className="max-w-5xl mx-auto">
-            <motion.div {...f} className="text-center mb-14">
+            <motion.div {...f} className="text-center mb-10 sm:mb-14">
               <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.process.eyebrow')}</p>
-              <h2 className="font-syne text-4xl font-bold">{t('b2b.process.title')}</h2>
+              <h2 className="font-syne text-3xl sm:text-4xl font-bold">{t('b2b.process.title')}</h2>
             </motion.div>
             <div className="grid grid-cols-1 sm:grid-cols-5 gap-6 sm:gap-4">
               {processSteps.map((step, i) => (
@@ -175,12 +175,12 @@ export default function B2B() {
         </section>
 
         {/* Mehrwert + Warum */}
-        <section className="py-20 px-6">
+        <section className="py-14 sm:py-20 px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
               <motion.div {...f}>
                 <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.value.eyebrow')}</p>
-                <h3 className="font-syne text-3xl font-bold text-[#003366] mb-8">{t('b2b.value.title')}</h3>
+                <h3 className="font-syne text-2xl sm:text-3xl font-bold text-[#003366] mb-6 sm:mb-8">{t('b2b.value.title')}</h3>
                 <div className="space-y-4">
                   {valueItems.map((text, i) => {
                     const Icon = valueIcons[i];
@@ -195,7 +195,7 @@ export default function B2B() {
               </motion.div>
               <motion.div {...f} transition={{ delay: 0.15, duration: 0.6 }}>
                 <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.why.eyebrow')}</p>
-                <h3 className="font-syne text-3xl font-bold text-[#003366] mb-8">{t('b2b.why.title')}</h3>
+                <h3 className="font-syne text-2xl sm:text-3xl font-bold text-[#003366] mb-6 sm:mb-8">{t('b2b.why.title')}</h3>
                 <div className="space-y-4">
                   {whyItems.map((w, i) => (
                     <div key={i} className="flex gap-4 items-start">
@@ -210,14 +210,14 @@ export default function B2B() {
         </section>
 
         {/* Kontakt */}
-        <section className="py-24 px-6 bg-gradient-to-br from-[#003366] to-[#001a33] text-white">
+        <section className="py-16 sm:py-24 px-4 sm:px-6 bg-gradient-to-br from-[#003366] to-[#001a33] text-white">
           <div className="max-w-5xl mx-auto text-center">
             <motion.div {...f}>
-              <h2 className="font-syne text-4xl sm:text-5xl font-bold mb-4">{t('b2b.contact.title')}</h2>
-              <p className="text-white/55 mb-10 text-lg">{t('b2b.contact.subtitle')}</p>
+              <h2 className="font-syne text-3xl sm:text-4xl md:text-5xl font-bold mb-4">{t('b2b.contact.title')}</h2>
+              <p className="text-white/55 mb-8 sm:mb-10 text-base sm:text-lg">{t('b2b.contact.subtitle')}</p>
               <a
                 href="mailto:info@stuventaa.de"
-                className="inline-flex items-center gap-3 px-10 py-4 bg-[#FF6600] hover:bg-[#e55a00] text-white font-bold uppercase tracking-wider rounded-sm transition-colors text-lg"
+                className="inline-flex items-center gap-3 px-7 sm:px-10 py-3.5 sm:py-4 bg-[#FF6600] hover:bg-[#e55a00] text-white font-bold uppercase tracking-wider rounded-sm transition-colors text-base sm:text-lg"
               >
                 <Mail className="w-5 h-5" />
                 info@stuventaa.de

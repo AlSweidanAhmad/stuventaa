@@ -28,3 +28,4 @@ Docs/
 .agents/
 .claude/
 skills-lock.json
+session_manager
