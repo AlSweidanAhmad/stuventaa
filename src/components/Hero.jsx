@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-right sm:object-center"
           alt={t('hero.backgroundAlt')}
           src={heroImg}
           fetchpriority="high"

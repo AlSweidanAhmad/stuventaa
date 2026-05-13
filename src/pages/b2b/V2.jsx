@@ -35,17 +35,17 @@ export default function B2B() {
       <div className="bg-white text-[#003366]">
 
         {/* Hero */}
-        <section className="text-white py-28 px-6 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #003366 0%, #004080 50%, #001a33 100%)' }}>
+        <section className="text-white py-16 sm:py-28 px-6 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #003366 0%, #004080 50%, #001a33 100%)' }}>
           <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'radial-gradient(ellipse 70% 60% at 70% 30%, rgba(255,102,0,0.12) 0%, transparent 60%), radial-gradient(ellipse 40% 50% at 10% 80%, rgba(0,64,128,0.4) 0%, transparent 50%)' }} />
           <div className="max-w-5xl mx-auto relative z-10">
             <motion.div {...f} className="max-w-3xl">
               <span className="inline-block px-4 py-1.5 rounded-full bg-[#FF6600] text-white text-sm font-bold uppercase tracking-wider mb-8">
                 {t('b2b.hero.badge')}
               </span>
-              <h1 className="font-syne text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-6">
+              <h1 className="font-syne text-4xl sm:text-6xl lg:text-7xl font-black leading-tight mb-6">
                 Stuventaa
               </h1>
-              <p className="text-xl text-white/75 mb-8 leading-relaxed">
+              <p className="text-base sm:text-xl text-white/75 mb-8 leading-relaxed">
                 {t('b2b.hero.subtitle')}
               </p>
               <div className="flex flex-wrap gap-3">
@@ -112,13 +112,13 @@ export default function B2B() {
         </section>
 
         {/* Kandidatenprofile */}
-        <section className="py-20 px-6 bg-[#f8fafc]">
+        <section className="py-14 sm:py-20 px-4 sm:px-6 bg-[#f8fafc]">
           <div className="max-w-5xl mx-auto">
-            <motion.div {...f} className="text-center mb-12">
+            <motion.div {...f} className="text-center mb-10">
               <p className="text-sm font-bold text-[#FF6600] tracking-widest uppercase mb-3">{t('b2b.candidates.eyebrow')}</p>
-              <h2 className="font-syne text-4xl font-bold text-[#003366]">{t('b2b.candidates.title')}</h2>
+              <h2 className="font-syne text-3xl sm:text-4xl font-bold text-[#003366]">{t('b2b.candidates.title')}</h2>
             </motion.div>
-            <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
               {candidateFields.map((label, i) => (
                 <motion.div
                   key={i}
@@ -126,15 +126,15 @@ export default function B2B() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
-                  className="p-8 rounded-2xl bg-white shadow-sm border border-gray-100 text-center hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                  className="p-6 rounded-2xl bg-white shadow-sm border border-gray-100 text-center hover:shadow-md transition-all duration-300"
                 >
-                  <div className="text-5xl mb-4">{candidateIcons[i]}</div>
-                  <p className="text-[#003366] font-semibold">{label}</p>
+                  <div className="text-4xl mb-3">{candidateIcons[i]}</div>
+                  <p className="text-[#003366] font-semibold text-sm sm:text-base">{label}</p>
                 </motion.div>
               ))}
             </div>
-            <div className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
-              <h4 className="text-lg font-bold text-[#003366] mb-5">{t('b2b.candidates.traitsTitle')}</h4>
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm">
+              <h4 className="text-base sm:text-lg font-bold text-[#003366] mb-4">{t('b2b.candidates.traitsTitle')}</h4>
               <div className="grid sm:grid-cols-2 gap-3">
                 {candidateTraits.map((trait, i) => (
                   <div key={i} className="flex items-center gap-3 text-gray-600">
