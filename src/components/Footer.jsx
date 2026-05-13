@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="relative bg-[#0b1120] text-white pt-24 pb-12 overflow-hidden scroll-mt-[90px]"
+      className="relative bg-gradient-to-br from-[#003366] to-[#001a33] text-white pt-24 pb-12 overflow-hidden scroll-mt-[90px]"
     >
       {/* Background Map Pattern - Simulated with opacity mask on image */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
