@@ -51,6 +51,7 @@ const Header = () => {
     { label: t('nav.programs'), id: 'services' },
     { label: t('nav.contact'), id: 'contact' },
     { label: t('nav.privacy'), id: 'privacy' },
+    { label: t('nav.b2b'), id: 'b2b', path: '/b2b' },
   ];
 
   const changeLanguage = (lng) => {
@@ -73,10 +74,10 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-x-8">
           {navItems.map((item) =>
-            item.id === 'privacy' ? (
+            item.path ? (
               <Link
                 key={item.id}
-                to="/privacy"
+                to={item.path}
                 className="text-sm font-semibold text-[#003366] hover:text-[#FF6600] transition-colors uppercase tracking-wider"
               >
                 {item.label}
@@ -140,10 +141,10 @@ const Header = () => {
           >
             <nav className="flex flex-col py-4 px-6 gap-y-3">
               {navItems.map((item) =>
-                item.id === 'privacy' ? (
+                item.path ? (
                   <Link
                     key={item.id}
-                    to="/privacy"
+                    to={item.path}
                     className="text-left text-base font-medium text-[#003366] hover:text-[#FF6600] py-2 border-b border-gray-100 last:border-b-0"
                     onClick={() => setIsOpen(false)}
                   >

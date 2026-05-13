@@ -26,4 +26,5 @@ Docs/
 
 # Local skills and Claude agents (project-local, not for repo)
 .agents/
+.claude/
 skills-lock.json
